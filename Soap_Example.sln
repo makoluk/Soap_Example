@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soap_Example.UI", "Soap_Example.UI\Soap_Example.UI.csproj", "{1F3A407F-E851-4740-A63B-63F734A0A084}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A} = {D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soap_Example.Service", "Soap_Example.Service\Soap_Example.Service.csproj", "{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3A407F-E851-4740-A63B-63F734A0A084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3A407F-E851-4740-A63B-63F734A0A084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3A407F-E851-4740-A63B-63F734A0A084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3A407F-E851-4740-A63B-63F734A0A084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FD16B8-2FBA-46B9-B7B7-41080EA2516A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1431C1B0-FAAE-4397-B220-8974D174B56D}
+	EndGlobalSection
+EndGlobal
